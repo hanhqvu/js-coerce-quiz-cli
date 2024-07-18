@@ -34,7 +34,7 @@ async function main() {
         p.select({
           message: `5 + '9'`,
           maxItems: 3,
-          initialValue: 'ts',
+          initialValue: 'half',
           options: [
             { value: 'number', label: '59' },
             { value: 'string', label: '"59"' },
@@ -46,7 +46,7 @@ async function main() {
         p.select({
           message: `'number' + 5 + '9'`,
           maxItems: 3,
-          initialValue: 'number',
+          initialValue: 'error',
           options: [
             { value: 'NaN14', label: 'NaN14' },
             { value: 'error', label: 'エラー' },
@@ -58,7 +58,7 @@ async function main() {
         p.select({
           message: `true + undefined + '1'`,
           maxItems: 3,
-          initialValue: 'true',
+          initialValue: '2',
           options: [
             { value: 'trueundefined1', label: 'trueundefined1' },
             { value: 'NaN1', label: 'NaN1' },
