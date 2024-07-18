@@ -1,0 +1,40 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@clack/prompts": "npm:@clack/prompts@0.7.0",
+      "npm:picocolors": "npm:picocolors@1.0.1"
+    },
+    "npm": {
+      "@clack/core@0.3.4": {
+        "integrity": "sha512-H4hxZDXgHtWTwV3RAVenqcC4VbJZNegbBjlPvzOzCouXtS2y3sDvlO3IsbrPNWuLWPPlYVYPghQdSF64683Ldw==",
+        "dependencies": {
+          "picocolors": "picocolors@1.0.1",
+          "sisteransi": "sisteransi@1.0.5"
+        }
+      },
+      "@clack/prompts@0.7.0": {
+        "integrity": "sha512-0MhX9/B4iL6Re04jPrttDm+BsP8y6mS7byuv0BvXgdXhbV5PdlsHt55dvNsuBCPZ7xq1oTAOOuotR9NFbQyMSA==",
+        "dependencies": {
+          "@clack/core": "@clack/core@0.3.4",
+          "is-unicode-supported": "is-unicode-supported@2.0.0",
+          "picocolors": "picocolors@1.0.1",
+          "sisteransi": "sisteransi@1.0.5"
+        }
+      },
+      "is-unicode-supported@2.0.0": {
+        "integrity": "sha512-FRdAyx5lusK1iHG0TWpVtk9+1i+GjrzRffhDg4ovQ7mcidMQ6mj+MhKPmvh7Xwyv5gIS06ns49CA7Sqg7lC22Q==",
+        "dependencies": {}
+      },
+      "picocolors@1.0.1": {
+        "integrity": "sha512-anP1Z8qwhkbmu7MFP5iTt+wQKXgwzf7zTyGlcdzabySa9vd0Xt392U0rVmz9poOaBj0uHJKyyo9/upk0HrEQew==",
+        "dependencies": {}
+      },
+      "sisteransi@1.0.5": {
+        "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}
