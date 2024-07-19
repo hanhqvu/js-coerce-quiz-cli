@@ -3,6 +3,7 @@
   "packages": {
     "specifiers": {
       "npm:@clack/prompts": "npm:@clack/prompts@0.7.0",
+      "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:picocolors": "npm:picocolors@1.0.1"
     },
     "npm": {
@@ -21,6 +22,10 @@
           "picocolors": "picocolors@1.0.1",
           "sisteransi": "sisteransi@1.0.5"
         }
+      },
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
       },
       "is-unicode-supported@2.0.0": {
         "integrity": "sha512-FRdAyx5lusK1iHG0TWpVtk9+1i+GjrzRffhDg4ovQ7mcidMQ6mj+MhKPmvh7Xwyv5gIS06ns49CA7Sqg7lC22Q==",
