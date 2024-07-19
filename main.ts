@@ -32,7 +32,7 @@ async function main() {
 			answer1: () => p.note(`${color.green(true)}     `, "A"),
 			stringPlusNum: () =>
 				p.select({
-					message: `5 + '9'`,
+					message: `Q: 5 + '9'`,
 					maxItems: 3,
 					initialValue: "half",
 					options: [
@@ -44,7 +44,7 @@ async function main() {
 			answer2: () => p.note(`${color.green("59")}     `, "A"),
 			stringPlusNumPlusNum: () =>
 				p.select({
-					message: `'number' + 5 + '9'`,
+					message: `'Q: number' + 5 + '9'`,
 					maxItems: 3,
 					initialValue: "error",
 					options: [
@@ -56,7 +56,7 @@ async function main() {
 			answer3: () => p.note(`${color.green("number14")}     `, "A"),
 			trueVoid1: () =>
 				p.select({
-					message: `true + undefined + '1'`,
+					message: `Q: true + undefined + '1'`,
 					maxItems: 3,
 					initialValue: "2",
 					options: [
@@ -68,7 +68,7 @@ async function main() {
 			answer4: () => p.note(`${color.green("NaN1")}     `, "A"),
 			falseEqualMinus1: () =>
 				p.select({
-					message: `false === -1`,
+					message: `Q: false === -1`,
 					maxItems: 3,
 					initialValue: "false",
 					options: [
